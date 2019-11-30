@@ -11,9 +11,13 @@ public class Main {
             int n = scan.nextInt();
             int result = 0;
             for (int j = 0; j < n; j++) {
-                result += scan.nextInt();
+                result = sum(result, scan.nextInt());
             }
             System.out.println(result);
         }
+    }
+
+    public static int sum(int a, int b) {
+        return a + b;
     }
 }
