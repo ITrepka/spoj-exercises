@@ -5,6 +5,6 @@ public class Stopper {
         long start = System.currentTimeMillis();
         doingExercise.doIt();
         long end = System.currentTimeMillis();
-        return start - end / 1000d;
+        return (start - end) / 1000d;
     }
 }
