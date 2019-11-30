@@ -2,7 +2,7 @@ import com.spoj.pl.FCTRL3.Main;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class FCTRL3Test {
+public class FCTRL3_Test {
     @Test
     public void findTensAndUnitiesTest1() {
         String tensAndUnities = Main.findTensAndUnities(1);

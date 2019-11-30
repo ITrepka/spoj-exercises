@@ -2,7 +2,7 @@ import com.spoj.pl.PRIME_T.Main;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Prime_TTest {
+public class Prime_T_Test {
     @Test
     public void is11PrimeTest(){
         boolean isPrime = Main.isPrime(11);

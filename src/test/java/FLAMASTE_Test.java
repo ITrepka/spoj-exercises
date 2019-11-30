@@ -2,7 +2,7 @@ import com.spoj.pl.FLAMASTE.Main;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class FLAMASTETest {
+public class FLAMASTE_Test {
     @Test
     public void flamasterOPSSTest() {
         String opss = Main.flamaster("OPSS");
